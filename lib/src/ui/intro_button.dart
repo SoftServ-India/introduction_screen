@@ -14,7 +14,7 @@ class IntroButton extends StatelessWidget {
       onPressed: onPressed,
       child: child ?? SizedBox(),
       style: TextButton.styleFrom(
-        primary: color,
+        foregroundColor: color,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(8.0),
         ),
